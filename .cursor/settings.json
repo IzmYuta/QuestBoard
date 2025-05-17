@@ -1,0 +1,9 @@
+{
+  "ai.contextFiles": [
+    ".cursor/context.md",
+    "README.md",
+    ".vscode/ai-explanations/*.md",
+    "docs/*.md"
+  ],
+  "ai.enableAutoContext": true
+} 
