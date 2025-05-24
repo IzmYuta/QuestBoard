@@ -43,6 +43,9 @@ dependencies {
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 	decompileTools 'org.benf:cfr:0.152'
+
+	// JSON処理用
+	implementation 'com.google.code.gson:gson:2.10.1'
 }
 
 processResources {
